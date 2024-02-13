@@ -1,0 +1,18 @@
+.step{
+    font-size: 32px;
+        font-weight: 800;
+        color: var(--red);
+        position: absolute;
+        top: 2vw;
+        left: 2vw;
+}
+.step span {
+    position: relative;
+    left: -6vw;
+}
+.modify{
+    position: fixed;
+        left: 35vw;
+    width: 2vw;
+    height: 2vw;
+}

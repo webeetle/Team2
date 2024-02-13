@@ -1,3 +1,11 @@
+/* login style */
+@import url(./components/login/log.css);
+/* home style */
+@import url(./components/Home/home.css);
+/* modale create task style */
+@import url(./components//Modal/Modal.css);
+/* life Cycle style */
+@import url(./components/lifecycle/index.css); 
 :root {
 
   /* Colors: */
@@ -14,23 +22,9 @@
 }
 
 * {
-background-color: var(--gray);
+  font-family: 'Sora', sans-serif;
 }
 
-.counter_container{
-  position: relative;
-  top: -30rem;
-    left: 42rem;
-    width: 318px;
-    height: 41px;
-}
-.kanbanBoard{
-  background-color: white;
-  position: fixed;
-  bottom:  0;
-  left: 6.25vw;
-  width: 87.5vw;
-    height: 920px;
-    box-shadow: 0px 3px 6px #00000040;
-    border-radius: 32px 32px 0px 0px;
-}
+
+
+
